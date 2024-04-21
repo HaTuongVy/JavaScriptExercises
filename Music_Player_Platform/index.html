@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <!-- <button class="logo-btn">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </button> -->
+                <i class="fa-solid fa-wand-magic-sparkles font-icon"></i>
+                <a href="">Hun</a>
+            </div>
+            <div class="menu">
+                <h5>Menu</h5>
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-uber font-icon"></i>
+                        <a href="">Explore</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-play font-icon"></i>
+                        <a href="">Geners</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-book-tanakh font-icon"></i>
+                        <a href="">Albums</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-microphone font-icon"></i>
+                        <a href="">Artists</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-pinterest font-icon"></i>
+                        <a href="">Podcasts</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h5>Library</h5>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-arrow-rotate-left font-icon"></i>
+                        <a href="">Recent</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-book-tanakh font-icon"></i>
+                        <a href="">Albums</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-heart font-icon"></i>
+                        <a href="">Favourites</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-folder-open font-icon"></i>
+                        <a href="">Local</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h5>Playlist</h5>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-square-plus font-icon"></i>
+                        <a href="">Create New</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-play font-icon"></i>
+                        <a href="">Best of 2023</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-play font-icon"></i>
+                        <a href="">Best of 2024</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-play font-icon"></i>
+                        <a href="">Kael Fischer</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="playing">
+                <div class="top">
+                    <img src="./asset/sidebarCurrent.png" alt="">
+                    <h4>
+                        Apple <br>
+                        Homepod
+                    </h4>
+                </div>
+                <div class="bottom">
+                    <i class="fa-brands fa-pinterest font-icon"></i>
+                    <p>Playing On Device</p>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <!-- header -->
+            <header>
+                <div class="nav-link">
+                    <a href="">Music</a>
+                    <a href="">Live</a>
+                    <a href="">Podcasts</a>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="type here to search">
+                </div>
+            </header>
+            <aside>
+                <!-- Trending -->
+                <div class="trending">
+                    <div class="left">
+                        <h5>Trending New Song</h5>
+                        <div class="info">
+                            <h2>Lost Emotions</h2>
+                            <h4>1000 Years Love</h4>
+                            <h5>63 million plays</h5>
+                        </div>
+                        <div class="button-action">
+                            <button class="listen">Listen Now</button>
+                            <button class="stop">Stop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Playlist -->
+                <div class="playlist"></div>
+            </aside>
+        </main>
+        <aside>
+
+        </aside>
+    </div>
+</body>
+</html>

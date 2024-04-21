@@ -1,0 +1,118 @@
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.2fr 4fr 2fr ;
+    background: linear-gradient(#050505, #18181d);
+}
+
+/* Sidebar */
+.container .sidebar{
+    height: 100%;
+    background-color: #18181d ;
+    padding: 20px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100000;
+    transition: all 0.6s ease;
+}
+
+.container .sidebar .logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container .sidebar .logo > i{
+    font-size: 22px;
+}
+
+.container .sidebar .logo button{
+    
+}
+
+.container .sidebar .menu {
+    list-style: none;
+}
+
+.container .sidebar .menu h5{
+    color: #919191;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.container .sidebar .menu ul li{
+    position: relative;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.container .sidebar .logo:hover > i, .container .sidebar .logo:hover > a, .container .sidebar .menu ul li:hover > a, .container .sidebar .menu ul li:hover > i{
+    color: #5773ff;
+}
+
+.container .sidebar .menu ul li a{
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+i{
+    color: #fff;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.font-icon{
+    font-weight: 600;
+}
+
+.container .sidebar .playing .top{
+    background-color: #32323d;
+    border-radius: 6px 6px 0 0 ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.container .sidebar .playing .bottom{
+    background-color: #25252d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 6px;
+    font-size: 12px;
+    color: #919191;
+}
+
+.container .sidebar .playing .bottom i{
+    color: #919191;
+}
+
+.container .sidebar .playing .top img{
+    width: 36px;
+    height: 36px;
+}
