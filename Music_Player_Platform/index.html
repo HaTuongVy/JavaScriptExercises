@@ -87,7 +87,7 @@
             </div>
             <div class="playing">
                 <div class="top">
-                    <img src="./asset/sidebarCurrent.png" alt="">
+                    <img src="./asset/img/sidebarCurrent.png" alt="">
                     <h4>
                         Apple <br>
                         Homepod
@@ -101,14 +101,14 @@
         </aside>
         <main>
             <!-- header -->
-            <header>
+            <header class="heading">
                 <div class="nav-link">
                     <a href="">Music</a>
                     <a href="">Live</a>
                     <a href="">Podcasts</a>
                 </div>
                 <div class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-magnifying-glass font-icon"></i>
                     <input type="text" placeholder="type here to search">
                 </div>
             </header>
@@ -124,12 +124,730 @@
                         </div>
                         <div class="button-action">
                             <button class="listen">Listen Now</button>
-                            <button class="stop">Stop Now</button>
+                            <!-- <button class="stop">Stop Now</button> -->
+                            <i class="fa-solid fa-heart-pulse"></i>
                         </div>
+                    </div>
+                    <div class="waves">
+                        <span class="wave paused"></span>
+                    </div>
+                    <div class="left-img">
+                        <img src="./asset/img/sidebarCurrent.png" style="width: 300px; height: 200px;" alt="">
                     </div>
                 </div>
                 <!-- Playlist -->
-                <div class="playlist"></div>
+                <div class="playlist">
+                    <!-- Music genres -->
+                    <div class="genres">
+                        <div class="header">
+                            <h5>Geners</h5>
+                            <a href="">See all</a>
+                        </div>
+                        <div class="items">
+                            <div class="item pop">
+                                <p>Electro Pop</p>
+                                <div class="music-items__list">
+                                    <div class="itemlist active">
+                                        <div class="info">
+                                            <img src="./asset/img/athousandloves.jpg" alt="">
+                                            <div class="details">
+                                                <h5>1000 Years Love</h5>
+                                                <p>NamDuc Official</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/duanhauditron.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Đưa nhau đi trốn</h5>
+                                                <p>Đen Vâu Official</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/divenha.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Đi về nhà</h5>
+                                                <p>Đen Vâu Official</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/aloi.jpg" alt="">
+                                            <div class="details">
+                                                <h5>À lôi</h5>
+                                                <p>Double2T Official</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/waitingforyou.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Waiting for You</h5>
+                                                <p>Mono Official</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/nhungloihuaboquen.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Những lời hứa bỏ quên</h5>
+                                                <p>Vũ Official</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/chungtacuahientai.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Chúng ta của hiện tại</h5>
+                                                <p>Sơn Tùng MTP</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/tungla.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Từng là</h5>
+                                                <p>Vũ Cát Tường Official</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item beat">
+                                <p>Dance Beat</p>
+                                <div class="music-items__list">
+                                    <div class="itemlist active">
+                                        <div class="info">
+                                            <img src="./asset/img/alwaysandforever.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Always & Forever</h5>
+                                                <p>Lofi Type Beat</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/everytimeilooktoyou.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Every time I love for you</h5>
+                                                <p>Lofi Type Beat</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/lastnight.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Last Night</h5>
+                                                <p>Lofi Type Beat</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/lovely.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Lovely</h5>
+                                                <p>Lofi Type Beat</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item remix">
+                                <p>Clubhouse Remix</p>
+                                <div class="music-items__list">
+                                    <div class="itemlist active">
+                                        <div class="info">
+                                            <img src="./asset/img/haiphuthon.jpg" alt="">
+                                            <div class="details">
+                                                <h5>2 phút hơn</h5>
+                                                <p>Pháo x Masew</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/khongphai.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Không Phai</h5>
+                                                <p>Tăng Duy Tân x TRI x Phong Max</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/moitrau.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Mời Trầu</h5>
+                                                <p>Masew x Tuấn cry</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item rap">
+                                <p>Hip Hop Rap</p>
+                                <div class="music-items__list">
+                                    <div class="itemlist active">
+                                        <div class="info">
+                                            <img src="./asset/img/thousandyearslove.jpg" alt="">
+                                            <div class="details">
+                                                <h5>A thousand Years</h5>
+                                                <p>Christina Perri</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/aimuonnghekhong.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Ai muốn nghe không</h5>
+                                                <p>Đen Vâu Official</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/iloveyouforever.jpg" alt="">
+                                            <div class="details">
+                                                <h5>I Love You Forever</h5>
+                                                <p>Edwin Klift</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/iloveyou3000.jpg" alt="">
+                                            <div class="details">
+                                                <h5>I Love You 3000</h5>
+                                                <p>Stephanie Poetri</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item indie">
+                                <p>Alternative Indie</p>
+                                <div class="music-items__list">
+                                    <div class="itemlist active">
+                                        <div class="info">
+                                            <img src="./asset/img/simplelove.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Simple Love</h5>
+                                                <p>Obito x Seachains</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="itemlist">
+                                        <div class="info">
+                                            <img src="./asset/img/thichquaruina.jpg" alt="">
+                                            <div class="details">
+                                                <h5>Thích quá rùi nà</h5>
+                                                <p>tlinh Official</p>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- List music -->
+                    <div class="music-list">
+                        <div class="header">
+                            <h5>Top Songs</h5>
+                            <a href="">See all</a>
+                        </div>
+                        <div class="music-items">
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/athousandloves.jpg" alt="">
+                                    <div class="details">
+                                        <h5>1000 Years Love</h5>
+                                        <p>NamDuc Official</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/duanhauditron.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Đưa nhau đi trốn</h5>
+                                        <p>Đen Vâu Official</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/divenha.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Đi về nhà</h5>
+                                        <p>Đen Vâu Official</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/aloi.jpg" alt="">
+                                    <div class="details">
+                                        <h5>À lôi</h5>
+                                        <p>Double2T Official</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/waitingforyou.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Waiting for You</h5>
+                                        <p>Mono Official</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/nhungloihuaboquen.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Những lời hứa bỏ quên</h5>
+                                        <p>Vũ Official</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/chungtacuahientai.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Chúng ta của hiện tại</h5>
+                                        <p>Sơn Tùng MTP</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/tungla.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Từng là</h5>
+                                        <p>Vũ Cát Tường Official</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/alwaysandforever.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Always & Forever</h5>
+                                        <p>Lofi Type Beat</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/everytimeilooktoyou.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Every time I love for you</h5>
+                                        <p>Lofi Type Beat</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/lastnight.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Last Night</h5>
+                                        <p>Lofi Type Beat</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/lovely.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Lovely</h5>
+                                        <p>Lofi Type Beat</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/haiphuthon.jpg" alt="">
+                                    <div class="details">
+                                        <h5>2 phút hơn</h5>
+                                        <p>Pháo x Masew</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/khongphai.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Không Phai</h5>
+                                        <p>Tăng Duy Tân x TRI x Phong Max</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/khongphai.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Không Phai</h5>
+                                        <p>Tăng Duy Tân x TRI x Phong Max</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/moitrau.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Mời Trầu</h5>
+                                        <p>Masew x Tuấn cry</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/thousandyearslove.jpg" alt="">
+                                    <div class="details">
+                                        <h5>A thousand Years</h5>
+                                        <p>Christina Perri</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/aimuonnghekhong.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Ai muốn nghe không</h5>
+                                        <p>Đen Vâu Official</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/iloveyouforever.jpg" alt="">
+                                    <div class="details">
+                                        <h5>I Love You Forever</h5>
+                                        <p>Edwin Klift</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/iloveyou3000.jpg" alt="">
+                                    <div class="details">
+                                        <h5>I Love You 3000</h5>
+                                        <p>Stephanie Poetri</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/simplelove.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Simple Love</h5>
+                                        <p>Obito x Seachains</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <img src="./asset/img/thichquaruina.jpg" alt="">
+                                    <div class="details">
+                                        <h5>Thích quá rùi nà</h5>
+                                        <p>tlinh Official</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-play"></i>
+                                        <!-- <i class="fa-regular fa-circle-pause"></i> -->
+                                    </div>
+                                    <i class="fa-solid fa-square-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </aside>
         </main>
         <aside>
